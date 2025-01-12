@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Jersey+15&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Indie+Flower&family=Jersey+15&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Vinyl&display=swap');
+@keyframes colors{
+  0%, 100% { color:rgb(4, 197, 223)}
+  25% { color: rgb(133, 214, 12)}
+  50% { color:rgb(243, 163, 15)}
+  75% { color:rgb(206, 32, 32)}
+  90% { color:rgb(211, 57, 211)}
+}
+/* *{
+  background-color: black;
+} */
+/* .theme{
+  position: absolute;
+  right:15px;
+  top:15px;
+  border: none;
+}
+.dn{
+  background-color: white;
+  border: none;
+}
+.theme img{
+  width:30px;
+  height:auto;
+} */
+.title{
+  color:rgb(4, 197, 223);
+  font-family: "Jersey 15";
+  font-size:80px;
+  width:97%;
+  height: auto;
+  height:100px;
+  text-align: center;
+  animation: colors 10s 0.5s linear infinite;
+}
+.container1{
+  padding-left:180px;
+  width:80%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap:30px;
+}
+.container{
+  padding:0;
+    border: 3px solid black;
+    width:30em;
+    height:28em;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(16, 1fr);  
+
+
+}
+.inputdiv{
+  border:2px solid black;
+  width:40px;
+  height:40px;
+}
+.other{
+  display: flex;
+  gap:50px;
+  /* border: 2px solid black; */
+
+}
+.takeinput p{
+  margin:20px 0px 0px 40px;
+  font-family: "Bebas Neue";
+  font-size:25px;
+}
+.takeinput input{
+  margin: 5px 0px 0px 40px;
+  border-radius: 20px;
+  height:40px;  
+  font-size:20px;
+  font-family: "Bebas Neue";
+  padding-left: 20px;
+}
+
+.click p{
+  margin:30px 0px 0px 40px;
+  font-family: "Bebas Neue";
+  font-size:25px;
+}
+.click button{
+  margin: 5px 0px 0px 40px;
+  border-radius: 20px;
+  width: 200px;
+  height:45px;  
+  color:rgb(19, 18, 18);
+  background-color: whitesmoke;
+  font-size:20px;
+  font-family: "Bebas Neue";
+  padding-left: 10px;
+}
+.colors p{
+  margin: 20px 0px 0px 40px;
+}
+.col{
+  margin: 5px 0px 0px 40px;
+  border-radius: 20px;
+  width: 50px;
+  height:30px;  
+  color:rgb(19, 18, 18);
+  background-color: whitesmoke;
+  font-size:20px;
+  font-family: "Bebas Neue";
+  padding: 3px;
+}
+
